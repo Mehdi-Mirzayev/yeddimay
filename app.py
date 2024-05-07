@@ -29,15 +29,15 @@ class Sinif:
             return "sinifde telebe yoxdur."
 
 # Örnekler oluştur
-ogrenci1 = Telebe("Ali", "Yılmaz", 101)
-ogrenci2 = Telebe("Ayşe", "Demir", 102)
+ogrenci1 = Telebe("Cosqun", "Ferzeliyev", 101)
+ogrenci2 = Telebe("Nezrin", "Babayeva", 102)
 
 sinif1 = Sinif("9/A")
-sinif1.telebe_daxilet(ogrenci1)
-sinif1.telebe_daxilet(ogrenci2)
+sinif1.telebe_daxilet(telebe1)
+sinif1.telebe_daxilet(telebe2)
 
 # Sınıf işlemleri
 print("Sınıf Adı:", sinif1.sinif_adi)
 print("Sınıf Listesi:", sinif1.sinif_listesi())
 print(sinif1.telebe_sil(102))
-print("Güncel Sınıf Listesi:", sinif1.sinif_listesi())
+print("Güncel Sinif Listesi:", sinif1.sinif_listesi())
